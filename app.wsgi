@@ -20,4 +20,4 @@ def make_output(page):
 		page_content = open(page_path).read()
 	else:
 		page_content = open("/srv/http/static/html/not_exists.html").read()
-	return [open("/srv/http/static/html/header.html").read() + open("/srv/http/static/html/menu.html").read() + page_content + open("/srv/http/static/html/footer.html").read()]
+	return open("/srv/http/static/html/header.html").read() + open("/srv/http/static/html/menu.html").read() + page_content + open("/srv/http/static/html/footer.html").read()
