@@ -15,9 +15,9 @@ def application(environ, start_response):
     return [output]
 
 def make_output(page):
-	page_path = "views/"+page+".html"
+	page_path = "/srv/http/views/"+page+".html"
 	if os.path.exists(page_path):
 		page_content = open(page_path).read()
 	else:
-		page_content = open("static/html/not_exists.html").read()
-	return [open("static/html/header.html").read() + open("static/html/menu.html").read() + page_content + open("static/html/footer.html").read()]
+		page_content = open("/srv/http/static/html/not_exists.html").read()
+	return [open("/srv/http/static/html/header.html").read() + open("/srv/http/static/html/menu.html").read() + page_content + open("/srv/http/static/html/footer.html").read()]
