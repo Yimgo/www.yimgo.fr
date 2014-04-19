@@ -11,7 +11,7 @@ What defines me the most is challenge. I'm interested and passionate about multi
 
 I have been involved at Intel Germany in the creation of a demonstration of the Intel Puma 6 platform, a services gateway for cable operators and broadcasters. It has been shown at IBC 2013, Amsterdam, and CES 2014, Las Vegas. I mostly took over the front-end part – JavaScript + Backbone.js –, where TV services and EPG data were displayed within the browser, but also handled the configuration, administration and maintenance of the Linux-based embedded platform and worked closely with Intel's partners to get their software ready and optimized.
 
-I am currently doing research at the IPADS lab, hosted by School of Electronic Information and Electrical Engineering of Shanghai Jiao Tong University, on dynamic parallelization of JVM-based applications.
+I am currently doing research at the IPADS lab, hosted by the School of Electronic Information and Electrical Engineering of Shanghai Jiao Tong University, on dynamic parallelization of JVM-based applications.
 
 At previous employers, I've worked with C++/Qt applications ([Open-Sankoré](//github.com/Sankore/Sankore-3.1)) or PHP – I developed and integrated a monitoring tool handling critical KPIs.
 
