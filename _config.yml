@@ -1,2 +1,2 @@
 name: Guillaume Burel
-pygments: true
+highlighter: pygments
