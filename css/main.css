@@ -1,5 +1,16 @@
-html, body { 
-    height: 100%; 
+@font-face{
+    font-family: Batch;
+    src: url('assets/batch.eot');
+    src: url('assets/batch.eot?#iefix') format('embedded-opentype'),
+    url('assets/batch.woff') format('woff'),
+    url('assets/batch.ttf') format('truetype'),
+    url('assets/batch.svg#batchregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    height: 100%;
 }
 
 body {
@@ -10,26 +21,26 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-size: 100%; 
+    font-size: 100%;
 }
 
-h1 { 
-    margin-bottom: 1em; 
+h1 {
+    margin-bottom: 1em;
 }
 
-p { 
-    margin: 1em 0; 
+p {
+    margin: 1em 0;
 }
 
-a         { 
-    color: #00a; 
+a         {
+    color: #00a;
 }
-a:hover { 
-    color: #000; 
+a:hover {
+    color: #000;
 }
 
-a:visited { 
-    color: #a0a; 
+a:visited {
+    color: #a0a;
 }
 
 table {
@@ -117,3 +128,16 @@ ul.posts span {
 .site .footer .rss img {
     border: 0;
 }
+
+.batch {
+    font-family: "Batch";
+    font-size: 16px;
+    line-height: 1;
+    display: inline-block;
+    font-weight: lighter;
+}
+
+.batch:before {
+    content: attr(data-icon);
+}
+
