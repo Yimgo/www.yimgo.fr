@@ -4,7 +4,7 @@ title: Guillaume Burel
 ---
 # About me
 
-Hi ! I'm Guillaume, 23 years old, and I'm a French software engineer. I've graduated from INSA Lyon in September 2014, where I studied Computer Science, Telecommunications and Networks.
+Hi ! I'm Guillaume, 25 years old, and I'm a French software engineer. I've graduated from INSA Lyon in September 2014, where I studied Computer Science, Telecommunications and Networks.
 I'm currently working at Stormshield, a security solutions provider, where I'm taking part in the development of a centralized administration service for Stormshield appliances.
 
 What defines me the most is challenge. I'm interested and passionate about multiple fields in Computer Science and I'm ready to take up these as long as it challenges me.
